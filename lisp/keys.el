@@ -95,4 +95,7 @@
 (global-set-key (kbd "C-,") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C->") 'mc/mark-all-like-this)
 
+;; comment region
+(global-set-key (kbd "C-/") 'comment-dwim)
+
 (provide 'keys)
